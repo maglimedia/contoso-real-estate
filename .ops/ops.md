@@ -6,6 +6,6 @@ git remote add upstream https://github.com/Azure-Samples/contoso-real-estate.git
 
 We can then merge changes from Microsoft/react-native-windows into our local master branch by running the following commands:
 
-git fetch upstream
+git fetch origin
 git checkout main
 git merge origin/main
